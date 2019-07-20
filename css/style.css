@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: inherit;}
+ul,ol,li{list-style: none;}
+.clearfix::after{ content: ''; display: block; clear: both;}
+
+.topNavBar { position: fixed; top: 0; left: 0; width: 100%;}
+.topNavBarSon { background: rgba(0,0,0,0.8); padding: 22px 0;}
+.topNavBarSon .words{ float: left; font-size: 24px; font-weight: bold; font-family: "Arial Black"; margin-left: 18px;}
+.topNavBarSon .rs{ color: #e6686a;}
+.topNavBarSon .card{ color: #9a9da9; margin-left: 10px;}
+.topNavBarSon .nav{ float: right; margin-right: 12px; margin-top: 5px;}
+.topNavBarSon .nav li{ float: left; color: #b7b7b7; font-size: 12px; font-weight: bold; margin: 0 14px;}
